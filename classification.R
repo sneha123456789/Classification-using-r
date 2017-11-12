@@ -34,7 +34,8 @@ result <- list(name = cand, tdm = s.tdm)
 tdm <- lapply(candidates, generateTDM, path = pathname)
       
 #attach name
-bindCandidateto TDM <-function(tdm) {
+bindCandidateto TDM <-function(tdm)
+{
  s.mat <- t(data.matrix(tdm["tdm"]]))                                                                                                                                                                                                                                                                                             
  s.df <- as.data.frame(s.mat, stringsAsFactors = FALSE)
  

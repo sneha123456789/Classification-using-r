@@ -1,15 +1,16 @@
 # Classification-using-r
 Document classification is used to categorize data into one or more classes manually.This closely relates to Machine Learning so that input is taken as a corpus and output is retrieved as a label. This uses Supervised Machine learning techniques. 
 Have taken 2 datasets Obama and Romney speeches. Now classification is using done tm./plyr packages.
+
 Step I: Corpus creation:
-     Corpus is a large and structured set of texts used for analysis. 
+     Corpus is a large and structured set of texts used for analysis. 
         Two corpuses- one each for contestant Obama and Romney.
         
  Step II: Preprocessing of Corpus
-      Now the created corpus needs to clean before we use the data for our analysis. Preprocessing involves removal of punctuations, white spaces, Stop words such as is, 
+      Now the created corpus needs to clean before we use the data for our analysis. Preprocessing involves removal of punctuations, white spaces, Stop words such as is, 
         the, for, etc.
         
- Step III: Term Document Matrix                                                                                 
+ Step III: Term Document Matrix                                                                                 
       This step involves creation of Term Document Matrix, i.e. matrix which has the   frequency of terms that occur in a collection of documents.
  
  Step IV: Feature Extraction & Labels for the model:

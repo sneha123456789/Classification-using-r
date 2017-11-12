@@ -53,7 +53,7 @@ tdm.stack[is.na(tdm.stack)]
 train-idx <- sample(nrow(tdm.stack), ceiling(nrow(tdm.stack) = 0.7))
 test.idx <- (1:nrow(tdm.stack)) [-train.idx]
 
-#model - kNN
+#model - kNN Model classification
 tdm.cand <- tdm.stack[, !colnammes(tdm.stack)%in% "targetcandidate"]
 
 knn.pred <- knn(tde.stack.n1(train,idx, ], tdm.stack.n1(test,idx, ], tdm.cand[train.idx])

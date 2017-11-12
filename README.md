@@ -20,10 +20,10 @@ Step I: Corpus creation:
         In this step, we first randomize the data & then, divide the Data containing Features and Labels into Training (70%) & Test data (30%) before we feed into our Model.
         
  Step VI: Running the model:                                                                                        
- For creating our model using the training data we have separated in the earlier step. We use KNN-model.KNN predictions are based on averaging the outcomes of the K nearest neighbors; for classification problems, a majority of voting is used. The choice of K in regression model is essential in building the KNN model.
+        For creating our model using the training data we have separated in the earlier step. We use KNN-model.KNN predictions are based on averaging the outcomes of the K nearest neighbors; for classification problems, a majority of voting is used. The choice of K in regression model is essential in building the KNN model.
  
  Step VII: Test Model                                                                                                  
- Now that the model is created, we have to test the accuracy of the model.
+        Now that the model is created, we have to test the accuracy of the model.
  
  Note: This is being done using KNN model and Naive Bayes Classifier
  Since this Naive Bayes is used because to show accuaracy as well as this
